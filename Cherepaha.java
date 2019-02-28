@@ -108,31 +108,31 @@ public class Cherepaha {
 	}
 
 	public static void main(String[] args) {
-		Cherepaha Aha = new Cherepaha("   Аха", 50, 25);
-		System.out.println("Name -" + Aha.getName());
-		System.out.println("Weight -" + Aha.getVaga() + "    " + "gr");
-		System.out.println("Speed -" + Aha.getSpeed() + "    " + "km/h");
-		System.out.println("Location" + Aha.toString());
+		Cherepaha aha = new Cherepaha("   Аха", 50, 25);
+		System.out.println("Name -" + aha.getName());
+		System.out.println("Weight -" + aha.getVaga() + "    " + "gr");
+		System.out.println("Speed -" + aha.getSpeed() + "    " + "km/h");
+		System.out.println("Location" + aha.toString());
 
 		Cherepaha back = new Cherepaha("   back", 55, 30);
 		System.out.println("Name -" + back.getName());
 		System.out.println("Weight -" + back.getVaga() + "    " + "gr");
 		System.out.println("Speed -" + back.getSpeed() + "    " + "km/h");
 
-		Cherepaha Up = new Cherepaha("   Up", 60, 35);
-		System.out.println("Name -" + Up.getName());
-		System.out.println("Weight -" + Up.getVaga() + "    " + "gr");
-		System.out.println("Speed -" + Up.getSpeed() + "    " + "km/h");
+		Cherepaha up = new Cherepaha("   Up", 60, 35);
+		System.out.println("Name -" + up.getName());
+		System.out.println("Weight -" + up.getVaga() + "    " + "gr");
+		System.out.println("Speed -" + up.getSpeed() + "    " + "km/h");
 
-		Cherepaha Jorik = new Cherepaha("   Jorik", 65, 40);
-		System.out.println("Name -" + Jorik.getName());
-		System.out.println("Weight -" + Jorik.getVaga() + "    " + "gr");
-		System.out.println("Speed -" + Jorik.getSpeed() + "    " + "km/h");
+		Cherepaha jorik = new Cherepaha("   Jorik", 65, 40);
+		System.out.println("Name -" + jorik.getName());
+		System.out.println("Weight -" + jorik.getVaga() + "    " + "gr");
+		System.out.println("Speed -" + jorik.getSpeed() + "    " + "km/h");
 
-		Cherepaha Jessi = new Cherepaha("   Jessi", 70, 45);
-		System.out.println("Name -" + Jessi.getName());
-		System.out.println("Weight -" + Jessi.getVaga() + "    " + "gr");
-		System.out.println("Speed -" + Jessi.getSpeed() + "    " + "km/h");
+		Cherepaha jessi = new Cherepaha("   Jessi", 70, 45);
+		System.out.println("Name -" + jessi.getName());
+		System.out.println("Weight -" + jessi.getVaga() + "    " + "gr");
+		System.out.println("Speed -" + jessi.getSpeed() + "    " + "km/h");
 
 	}
 
